@@ -19,7 +19,7 @@
         <div class="flex flex-col items-center gap-3 group">
           <p class="text-base sm:text-lg md:text-xl text-gray-400 text-center font-mono group-hover:text-gray-300 transition-colors">
             <span class="text-cyber-green">&gt;</span>
-            © 2025
+            © 2026
             <span class="text-cyber-red group-hover:text-cyber-green transition-colors">CSC_Cyber_Security_Centre</span>
             <span class="text-gray-500">|</span>
             <span class="text-white font-bold group-hover:text-cyber-blue transition-colors">CSAD_CYBERWAR</span>
