@@ -243,11 +243,15 @@ onMounted(() => {
         <button
           class="group relative border-2 border-cyber-red text-cyber-red px-8 sm:px-10 md:px-12 py-4 text-base sm:text-lg md:text-xl uppercase tracking-widest hover:bg-cyber-red hover:text-black transition-all overflow-hidden animate-pulse-glow"
         >
-          <span class="relative z-10">Join the Battle</span>
-          <div
-            class="absolute inset-0 bg-cyber-red transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
-          ></div>
-          <span class="relative z-10 group-hover:text-black">&gt;&gt;</span>
+          <a href="http://localhost:8000/login">
+            <span class="relative z-10">Join the Battle</span>
+            <div
+              class="absolute inset-0 bg-cyber-red transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"
+            ></div>
+            <span class="relative z-10 group-hover:text-black"
+              >&gt;&gt;</span
+            ></a
+          >
         </button>
         <button
           @click="scrollToSection('rules')"
